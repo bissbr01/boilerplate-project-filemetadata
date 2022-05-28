@@ -1,0 +1,12 @@
+@hostname = localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+@contentType = application/x-www-form-urlencoded
+
+
+
+GET http://{{host}}/  HTTP/1.1
+
+###
+GET http://{{host}}/api/users
+
